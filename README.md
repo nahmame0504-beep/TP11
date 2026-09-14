@@ -1,14 +1,14 @@
 # Exercice 1 : Gestionnaire de Liste de Courses avec List
 
-## 🎯 Objectif
+##  Objectif
 Découvrir l'interface `List<E>` et la classe `ArrayList<E>` à travers la création d'une application console permettant de gérer dynamiquement une liste d'articles (ajout, suppression, recherche et affichage numéroté).
 
-## 📁 Structure du Projet
+##  Structure du Projet
 - **Package :** `com.example.tp`
 - **Classes :**
   - `ShoppingList.java` : Encapsule la liste d'articles et intègre l'interaction console dans sa méthode principale `main`.
 
-## 🛠️ Compilation et Exécution
+##  Compilation et Exécution
 
 Depuis le répertoire `src/` :
 
@@ -20,10 +20,10 @@ Exercice 2 : `README_EX2.md`
 ```markdown
 # Exercice 2 : Gestionnaire de Tâches avec List
 
-## 🎯 Objectif
+##  Objectif
 Manipuler des objets métiers (`Task`) au sein d'une `List<Task>`, mettre en œuvre le filtrage via l'API Stream Java 8, et trier les tâches selon leur priorité avec un `Comparator`.
 
-## 📁 Structure du Projet
+##  Structure du Projet
 - **Package :** `com.example.tp`
 - **Classes :**
   - `Status.java` : Énumération des états (`PENDING`, `IN_PROGRESS`, `DONE`).
@@ -31,7 +31,7 @@ Manipuler des objets métiers (`Task`) au sein d'une `List<Task>`, mettre en œu
   - `TaskManager.java` : Gestionnaire proposant les opérations de filtrage et de tri.
   - `TestTaskManager.java` : Programme de test pour valider les scénarios.
 
-## 🛠️ Compilation et Exécution
+##  Compilation et Exécution
 
 Depuis le répertoire `src/` :
 Exercice 3 : `README_EX3.md`
@@ -39,16 +39,16 @@ Exercice 3 : `README_EX3.md`
 ```markdown
 # Exercice 3 : Gestionnaire de Mots Uniques avec Set
 
-## 🎯 Objectif
+##  Objectif
 Comparer le comportement de trois implémentations de l'interface `Set` (`HashSet`, `LinkedHashSet`, et `TreeSet`) lors de l'extraction et du stockage de mots uniques issus d'un texte.
 
-## 📁 Structure du Projet
+##  Structure du Projet
 - **Package :** `com.example.tp`
 - **Classes :**
   - `WordManager.java` : Parse le texte brut et peuple simultanément les trois ensembles.
   - `TestWordManager.java` : Interface de test interactive avec recherche et suppression.
 
-## 🛠️ Compilation et Exécution
+##  Compilation et Exécution
 
 Depuis le répertoire `src/` :
 
@@ -60,16 +60,16 @@ Exercice 4 : `README_EX4.md`
 ```markdown
 # Exercice 4 : Dictionnaire Bilingue avec Map
 
-## 🎯 Objectif
+##  Objectif
 Mettre en pratique les clés/valeurs à l'aide des collections `HashMap`, `LinkedHashMap` et `TreeMap`, et implémenter une recherche par préfixe (autocomplétion) via les streams.
 
-## 📁 Structure du Projet
+##  Structure du Projet
 - **Package :** `com.example.tp`
 - **Classes :**
   - `DictionaryManager.java` : Gère le dictionnaire multiformat et les recherches.
   - `TestDictionary.java` : Programme de test interactif.
 
-## 🛠️ Compilation et Exécution
+##  Compilation et Exécution
 
 Depuis le répertoire `src/` :
 
